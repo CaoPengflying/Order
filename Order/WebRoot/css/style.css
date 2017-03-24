@@ -1,0 +1,99 @@
+/* CSS Document */
+/* ��½ҳ*/
+body {height:100%;margin: 0px;}
+.login{position:absolute; top:58px;right:82px; height:259px;z-index:2;}
+.login_enter{ width:451px; height:259px; MARGIN-RIGHT: auto; MARGIN-LEFT: auto;background-color:transparent;opacity:0.9;filter: alpha(opacity=90)}
+.login_a{ float:left; width:40px;height:239px;}
+.login_b{ float:left; width:451px; padding-top:100px;}
+.login_c{ float:left; width:45px;height:259px;}
+.login_d{ float:left; width:418px; padding:0 14px; background:#C9EBFA url(login_16.gif) bottom repeat-x; height:239px;}
+.login_d h1{position:relative;height:27px;line-height:27px;top:-5px;float:left;color:#666;font-size:20px}
+.extra-r{float:right}
+.regist-link{color:#b61d1d;font-size:14px}
+.regist-link a{color:#b61d1d; text-decoration:none;}
+.regist-link a:hover{color:#b61d1d; text-decoration: underline;}
+.regist-link b{display:inline-block;*display:inline;*zoom:1;width:16px;height:16px;overflow:hidden;background: url(../images/icon.png) -104px -75px no-repeat;vertical-align:middle;margin-right:5px}
+.form { width:380px; padding:5px;}
+.login-box{padding-top:10px;}
+.mt{display:inline-block;display:block;width:360px;overflow:visible;height:40px}
+.mc{ float:left;width:360px; margin-top:-10px;}
+/*
+.login-label1{float:left;display:inline-block;width:38px;height:38px;border-right:1px solid #bdbdbd;background:url(icon.png) 0px 0px  no-repeat;border-color:#3aa2e4}
+.login-label2{float:left;display:inline-block;width:38px;height:38px;border-right:1px solid #bdbdbd;background:url(icon.png) -51px 0px  no-repeat;border-color:#3aa2e4}
+*/
+.login-label1{float:left;display:inline-block;width:38px;height:38px;border-right:1px solid #bdbdbd;background:url(../images/icon.png) 0px 0px  no-repeat;border-color:#3aa2e4}
+.login-label2{float:left;display:inline-block;width:38px;height:38px;border-right:1px solid #bdbdbd;background:url(../images/icon.png) -48px 0px  no-repeat;border-color:#3aa2e4}
+
+.btn-img{border:1px solid #e85356;display:block;width:100px;background:#e4393c;height:31px;line-height:31px;color:#fff;font-size:20px;}
+/*��ť*/
+.login_enter .button{ width:120px; height:39px; border:0; background:url(../images/login-button.png) 0 0 no-repeat; cursor:pointer;}
+.login_enter .buttonRest{ width:120px; height:39px;float:right; background:url(../images/reset-button.png) 0 0 no-repeat; cursor:pointer;}
+.login_enter .button:hover{ background:url(../images/login-button.png) 0 -52px no-repeat}
+.login_enter .buttonRest:hover{ background:url(../images/reset-button.png) 0 -52px no-repeat}
+.login-btn{display:inline-block;margin:0 0 0 0px;height:33px; width:300px; text-align:center}
+/*
+.login-btn{display:inline-block;margin:0 0 0 20px;height:33px; width:100px; text-align:center}
+*/
+.idxt{ float:left;height:25px;line-height:18px; border: solid #E4E4E4 1px;padding:10px 0 0px 10px;width:200px;float:none;overflow:hidden;font-size:14px; vertical-align:top;}
+.safe{ margin-top:10px;position:relative;color:#666}
+.safe a{ text-decoration:none}
+.safe span{ float:left}
+.forget-pw-safe{ float:right}
+.forget-pw-safe a{color:#666; text-decoration: none;}
+.forget-pw-safe a:hover{ text-decoration:underline}
+.login_bg{ width:100%; height:254px; background:url(login_18.gif) repeat-x}
+.login_bgimg{ width:1000px; height:254px;MARGIN-RIGHT: auto; MARGIN-LEFT: auto;}
+.item{ margin-top:18px;}
+.item_item-fore1{padding-left: 60px;margin-top: 10px;}
+.forget-pw-safe{ float:right;}
+
+/* ��ҳ*/
+.row1{width:100%; background:url(index_01.gif)}
+.row1web{ margin:0 auto 0 auto; width:100%; height:62px; overflow:hidden}
+.row2{width:100%; background:url(index_04.gif) repeat-x; height:50px;}
+.row2web{ margin:0 auto 0 auto; width:100%; height:50px;}
+.row2web a {color:#FFF;text-decoration:none;}
+.row2web ul {list-style:none;}
+.row3{width:100%;}
+.row3web{background:#FFFFFF; margin:0 auto 0 auto; width:1000px; overflow:hidden}
+.row4{width:100%; height:500px; }
+.row4web{background:#FFFFFF; margin:0 auto 0 auto; width:100%; overflow:hidden; height:100%;}
+
+/*��¼��ʾ*/
+#show_text{font-size:15px;}
+#show_text1,#show_text2,#show_text3{height:20px;line-height:20px;font-size:12px;}
+#show_text1 img,#show_text2 img,#show_text3 img{width:20px;height:20px;margin-right:5px;}
+
+.login_box_top{position:absolute; top:50px;right:80px; height:40px;width:445px;border:8px solid #F0F0F1;border-bottom:#fff;
+-moz-border-radius: 5px;/* Gecko browsers */
+-webkit-border-radius:5px;   /* Webkit browsers */
+ border-radius:5px;            /* W3C syntax */
+ z-index:3;}
+.login_bgr{border-top:8px solid #F0F0F1;border-bottom:8px solid #F0F0F1; background-color:#C1E9FB; position:absolute; top:90px;left:0px;width:100%;height:77%;}
+.login_footer{ position:absolute; bottom:0px;left:0px;width:100%;}
+.login_footer .c_l{float:left;display:block;width:245px;background:url(../images/copy.png) 7px center no-repeat;font-size:14px;color:#333;padding:5px;padding-left:10px;text-align:center;height:16px;line-height:16px;}
+.login_footer .c_r{float:right;display:block;font-size:12px;}
+
+.bgstretcher-area { text-align: left; }
+.bgstretcher, .bgstretcher UL, .bgstretcher UL LI {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bgstretcher UL, .bgstretcher UL LI {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.bgstretcher {
+	background: black;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	_position: absolute; /*IE6 doesn't support fixed positioning*/
+	top: 0;
+	left: 0;
+	background-color:transparent;opacity:1;filter: alpha(opacity=100);
+	
+}

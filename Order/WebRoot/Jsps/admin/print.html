@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>数据打印</title>
+    <style type="text/css">
+body{background:white;font-size:14px;align:center;}
+table{font-size:14px;border-collapse:collapse;}
+th{font-weight:bold;text-align:center;border:1px solid #333333;padding:2px;}
+td{border:1px solid #333333;padding:2px;}
+　　</style>
+</head>
+<body>
+    <div id="dd" ></div>
+    <script type="text/javascript">
+        document.getElementById("dd").innerHTML = window.dialogArguments;
+        window.print();
+        //window.close();
+    </script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompanyServlet</servlet-name>
+    <servlet-class>Servlet.CompanyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegularServlet</servlet-name>
+    <servlet-class>Servlet.RegularServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WorkTypeServlet</servlet-name>
+    <servlet-class>Servlet.WorkTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <servlet-class>Servlet.DepartmentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PlaceServlet</servlet-name>
+    <servlet-class>Servlet.PlaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PriceServlet</servlet-name>
+    <servlet-class>Servlet.PriceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RouteServlet</servlet-name>
+    <servlet-class>Servlet.RouteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HolidayServlet</servlet-name>
+    <servlet-class>Servlet.HolidayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>Servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <servlet-class>Servlet.EmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoticeServlet</servlet-name>
+    <servlet-class>Servlet.NoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DataServlet</servlet-name>
+    <servlet-class>Servlet.DataServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignatureServlet</servlet-name>
+    <servlet-class>Servlet.SignatureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WorkshopServlet</servlet-name>
+    <servlet-class>Servlet.WorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResetServlet</servlet-name>
+    <servlet-class>Servlet.ResetServlet</servlet-class>
+    <load-on-startup>9</load-on-startup><!-- 数字越小，启动的优先级越高，必须大于0 -->  
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>Servlet.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarteenServlet</servlet-name>
+    <servlet-class>Servlet.CarteenServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CompanyServlet</servlet-name>
+    <url-pattern>/CompanyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegularServlet</servlet-name>
+    <url-pattern>/RegularServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkTypeServlet</servlet-name>
+    <url-pattern>/WorkTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <url-pattern>/DepartmentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PlaceServlet</servlet-name>
+    <url-pattern>/PlaceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PriceServlet</servlet-name>
+    <url-pattern>/PriceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RouteServlet</servlet-name>
+    <url-pattern>/RouteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HolidayServlet</servlet-name>
+    <url-pattern>/HolidayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <url-pattern>/EmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoticeServlet</servlet-name>
+    <url-pattern>/NoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DataServlet</servlet-name>
+    <url-pattern>/DataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignatureServlet</servlet-name>
+    <url-pattern>/SignatureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkshopServlet</servlet-name>
+    <url-pattern>/WorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResetServlet</servlet-name>
+    <url-pattern>/ResetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarteenServlet</servlet-name>
+    <url-pattern>/CarteenServlet</url-pattern>
+  </servlet-mapping>	
+  
+  <filter>
+	<filter-name>AdminFilter</filter-name>
+	<filter-class>Filter.AdminFilter</filter-class>
+  </filter>
+  <filter-mapping>
+	<filter-name>AdminFilter</filter-name>
+	<url-pattern>/Jsps/admin/*</url-pattern>
+  </filter-mapping>
+  <filter>
+	<filter-name>GroupFilter</filter-name>
+	<filter-class>Filter.GroupFilter</filter-class>
+  </filter>
+  <filter-mapping>
+	<filter-name>GroupFilter</filter-name>
+	<url-pattern>/Jsps/group/*</url-pattern>
+  </filter-mapping>
+  <filter>
+	<filter-name>WorkshopFilter</filter-name>
+	<filter-class>Filter.WorkshopFilter</filter-class>
+  </filter>
+  <filter-mapping>
+	<filter-name>WorkshopFilter</filter-name>
+	<url-pattern>/Jsps/workshop/*</url-pattern>
+  </filter-mapping>
+  <filter>
+	<filter-name>CommonFilter</filter-name>
+	<filter-class>Filter.CommonFilter</filter-class>
+  </filter>
+  <filter-mapping>
+	<filter-name>CommonFilter</filter-name>
+	<url-pattern>/Jsps/common/*</url-pattern>
+  </filter-mapping>
+  <filter>
+	<filter-name>SuperFilter</filter-name>
+	<filter-class>Filter.SuperFilter</filter-class>
+  </filter>
+  <filter-mapping>
+	<filter-name>SuperFilter</filter-name>
+	<url-pattern>/Jsps/super/*</url-pattern>
+  </filter-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
